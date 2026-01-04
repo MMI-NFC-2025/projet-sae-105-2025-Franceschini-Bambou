@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Franceschini
+- PRÉNOM : Bambou
+- GROUPE : C2
 - URL du site :
 - URL FIGMA :
