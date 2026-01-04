@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileva Einstein</title>
+    <link rel="icon" type="image/png" href="/assets/icon/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icon/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/icon/favicon/site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
+</head>
+<body>
+    <header class = "header">
+        <a class = "header__link"  href = "/fr/index.html"> 
+            <button class = "header__logo" aria-label = "retour à la page d'acceuil">
+                <img src ="/assets/icon/logo.svg" alt = "logo">
+            </button>
+        </a>
+        <h1>Mileva Einstein</h1>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <a class = "header__link"  href = "/fr/index.html"> 
+            <button class = "logo" aria-label = "retour à la page d'acceuil">
+            <img src ="/assets/icon/logo.svg" alt = "logo">
+            </button>
+            </a>
+            <h1>Mileva Einstein</h1>
+            <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
+                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
+            </button>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article1.html">Qui est Mileva Einstein ?</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article2.html">Livre Biographique</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article3.html">Qu'a t'elle découvert ?</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article4.html">Un film sur sa vie</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article5.html">Des femmes d'exception</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/contact.html">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/glossaire.html">>Glossaire</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/apropos.html">A propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/autresprojets.html">Autres Projets</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/galerie.html">Galerie de Films</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Contact</h1>
+                 <p class="hero__intro">
+                    Si vous avez des questions, suggestions, objections… nous sommes preneur ! Alors, n’hésitez pas à nous contacter ! Merci d’avance.
+                </p>
+            </div>
+        </section>
+
+         <form class="contactform">
+                    <div class="contact__lastname-wrapper">
+                        <label for="lastname" class="contactlabel">Nom</label>
+                        <input type="text" id="lastname" class="contactinput" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="contact__firstname-wrapper">
+                        <label for="firstname" class="contactlabel">Prénom</label>
+                        <input type="text" id="firstname" class="contactinput" placeholder="Entrez votre prénom">
+                    </div>
+                    <div class="contact__object-wrapper">
+                        <label for="object" class="contactlabel">Objet</label>
+                        <input type="text" id="object" class="contactinput" placeholder="Entrez l'objet">
+                    </div>
+                    <div class="contact__email-wrapper">
+                        <label for="email" class="contactlabel">Texte</label>
+                        <input type="text" id="email" class="contactinput" placeholder="Entrez votre email">
+                    </div>
+                    
+            </form>
+            <button class="contactsubmit-btn" type="submit">Envoyez</button>
+
+            <section class="contact-info">
+                <div class="contact-info__item">
+                    <p><strong>Mail :</strong> <a href="mailto:bambou.franceschini@edu.univ-fcomte.fr">bambou.franceschini@edu.univ-fcomte.fr</a></p>
+                </div>
+                <div class="contact-info__item">
+                    <p><strong>Tél :</strong> 03 84 65 95 84</p>
+                </div>
+            </section>
+
+            
