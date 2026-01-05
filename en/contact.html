@@ -15,7 +15,7 @@
 <body>
     <header class = "header">
         <a class = "header__link"  href = "/en/index.html"> 
-            <button class = "header__logo" aria-label = "back to home page">
+            <button class = "header__logo" aria-label = "retour à la page d'acceuil">
                 <img src ="/assets/icon/logo.svg" alt = "logo">
             </button>
         </a>
@@ -32,13 +32,13 @@
 
         <nav class="header__menu menu" id="mainNav" hidden>
             <a class = "header__link"  href = "/en/index.html"> 
-            <button class = "logo" aria-label = "back to home page">
+            <button class = "logo" aria-label = "retour à la page d'acceuil">
             <img src ="/assets/icon/logo.svg" alt = "logo">
             </button>
             </a>
             <h1>Mileva Einstein</h1>
-            <button class ="menu__close-btn close-btn" aria-label="close menu">
-                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="close menu button" />
+            <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
+                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
             </button>
             <ul class="menu__list">
                 <li class="menu__item">
@@ -54,7 +54,7 @@
                     <a class="menu__link" href="/en/article4.html">A film about her life</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/en/article5.html">Exceptional Women</a>
+                    <a class="menu__link" href="/en/article5.html">Des femmes d'exception</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="/en/contact.html">Contact</a>
@@ -72,8 +72,8 @@
                     <a class="menu__link" href="/en/galerie.html">Films Gallery</a>
                 </li>
             </ul>
-            <button class ="langue__btn langue-btn" aria-label="change language">
-                <a href="/fr/article4.html">
+            <button class ="langue__btn langue-btn" aria-label="changer de langue">
+                <a href="/fr/contact.html">
                     <p>FRA</p>
                 </a>
             </button>
@@ -84,48 +84,41 @@
     <main>
         <section class="hero">
             <div class="hero__container">
-                <h1 class="hero__title">A film about her life</h1>
+                <h1 class="hero__title">Contact</h1>
                  <p class="hero__intro">
-                    An animated short film about the story of Mileva Einstein, produced by Arte.
+                    If you have questions, suggestions, objections… we are taker, so don’t hesitate to contact us with our email or in this page. Thanks in advanced.
                 </p>
-    
-                <div class="hero__img img">
-                    <img src="/assets/img/article4-1.avif" alt="Photo of the animated short film about Mileva Einstein's story" class="hero__image">
+            </div>
+        </section>
+
+         <form class="contactform">
+                    <div class="contact__lastname-wrapper">
+                        <label for="lastname" class="contactlabel">Last Name</label>
+                    </div>
+                    <div class="contact__firstname-wrapper">
+                        <label for="firstname" class="contactlabel">name</label>
+                    </div>
+                    <div class="contact__object-wrapper">
+                        <label for="object" class="contactlabel">Subject</label>
+                    </div>
+                    <div class="contact__email-wrapper">
+                        <label for="email" class="contactlabel">Text</label>
+                    
+            </form>
+            <button class="contactsubmit-btn" type="submit">Send</button>
+
+            <section class="contact-info">
+                <div class="contact-info__item">
+                    <p><strong>Mail :</strong> <a href="mailto:bambou.franceschini@edu.univ-fcomte.fr">bambou.franceschini@edu.univ-fcomte.fr</a></p>
                 </div>
-        
-                <p><a href ="https://www.arte.tv/fr/videos/090626-019-A/cherchez-la-femme/">Cherchez la femme</a></p>
-                <div class="hero__info info">
-                    <p>By Bambou FRANCESCHINI, published le 20/10/2025</p>
+                <div class="contact-info__item">
+                    <p><strong>Phone :</strong> 03 84 65 95 84</p>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class = "paragraphe">
-            <div class ="paragraphe__contenu">
-                <h2>About the film</h2>
-                <p>A series of short films entitled « <strong>Cherchez la femme</strong> » each episode focusing on a historical woman. This one is entitled « <strong>Mileva Einstein</strong> » and was released in 2022 on Arte. It playfully and engagingly tells the story between the two scientists.</p>
-            </div>
-        </section>
-
-        <section class = "video">
-            <div class ="video__titre">
-                <h2>Film's extract</h2>
-            </div>
-
-            <div class="video__player">
-                    <video src="/assets/video/vidéo.mp4" controls poster="poster-video.webp"></video>
-            </div>
-        </section>
-
-        <a class = "article__link"  href = "/en/article5.html">
-                    <button class ="article__btn btn" aria-label =" go to next article"> 
-                        <span class = "btn__text">Next article</span>
-                    </button>
-        </a>
-
-        <footer class="footer">
+            <footer class="footer">
             <hr>
-            <div class="footer__content">
+            <div class="footer__content ">
                 <nav class = "footer__link link">
                     <a href="/en/contact.html" class="link__text">Contact</a>
                     <a href="/en/apropos.html" class="link__text">About me</a>
@@ -138,7 +131,7 @@
                         <h3 class="legal__title">Legals Mentions</h3>
                     </a>
                     <p class="legal__text">
-                        This project was carried out in 2025 as part of an educational exercise in the MMI department of Montbéliard.
+                        This project was carried out in 2025 as part of an educational exercise in the MMI department of Montébliard.
                     </p>
                 </div>
                 <div class="footer__contact contact">
@@ -146,7 +139,7 @@
                     <a href="mailto:bambou.franceschini@edu.univ-fcomte.fr" class="contact__email"> bambou.franceschini@edu.univ-fcomte.fr</a>
                 </div>
                 <a class = "header__link"  href = "/en/index.html"> 
-                    <button class = "header__logo" aria-label = "back to home page">
+                    <button class = "header__logo" aria-label = "retour à la page d'acceuil">
                         <img src ="/assets/icon/logo.svg" alt = "logo">
                     </button>
                 </a>
