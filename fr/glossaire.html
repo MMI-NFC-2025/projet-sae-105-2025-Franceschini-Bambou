@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileva Einstein</title>
+    <link rel="icon" type="image/png" href="/assets/icon/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/icon/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/icon/favicon/site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
+</head>
+<body>
+    <header class = "header">
+        <a class = "header__link"  href = "/fr/index.html"> 
+            <button class = "header__logo" aria-label = "retour à la page d'acceuil">
+                <img src ="/assets/icon/logo.svg" alt = "logo">
+            </button>
+        </a>
+        <h1>Mileva Einstein</h1>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <a class = "header__link"  href = "/fr/index.html"> 
+            <button class = "logo" aria-label = "retour à la page d'acceuil">
+            <img src ="/assets/icon/logo.svg" alt = "logo">
+            </button>
+            </a>
+            <h1>Mileva Einstein</h1>
+            <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
+                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
+            </button>
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article1.html">Qui est Mileva Einstein ?</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article2.html">Livre Biographique</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article3.html">Qu'a t'elle découvert ?</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article4.html">Un film sur sa vie</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/article5.html">Des femmes d'exception</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/contact.html">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/glossaire.html">>Glossaire</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/apropos.html">A propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/autresprojets.html">Autres Projets</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/galerie.html">Galerie de Films</a>
+                </li>
+            </ul>
+            <button class ="langue__btn langue-btn" aria-label="changer de langue">
+                <a href="/en/contact.html">
+                    <p>ENG</p>
+                </a>
+            </button>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Glossaire</h1>
+            </div>
+        </section>
+
+        <section class ="glossaire">
+            <div class="glossaire__container">
+                <article class="glossaire__article">
+                    <p id = "Albert Einstein" class="glossaire__term">Albert Einstein</p>
+                    <p class="glossaire__definition">Albert Einstein est un physicien théoricien à l’origine de la théorie de la relativité. Il a reçu le prix Nobel de physique en 1921.</p>
+                </article>
+
+                <article class="glossaire__article">
+                    <p id = "Autriche-Hongrie" class="glossaire__term">Autriche-Hongrie</p>
+                    <p class="glossaire__definition">L'Autriche-Hongrie était un empire d'Europe centrale qui a existé de 1867 à 1918. Mileva Einstein est née dans cette région.</p>
+                </article>
+
+                <article class="glossaire__article">
+                    <p id = "Ecole Polytechnique" class="glossaire__term">Ecole Polytechnique</p>
+                    <p class="glossaire__definition">Établissement d'enseignement supérieur spécialisé dans l'enseignement des sciences et techniques.</p>
+                </article>
+
+                <article class="glossaire__article">
+                    <p id = "e=mc²" class="glossaire__term">E=MC2</p>
+                    <p class="glossaire__definition">Permet de calculer la quantité d’énergie que possède un corps en fonction de sa masse et qu’il pourrait libérer en fonction des circonstances.</p>
+                </article>
+                <article class="glossaire__article">
+                    <p id = "Espace-temps" class="glossaire__term">Espace-temps</p>
+                    <p class="glossaire__definition">Concept fondamental de la théorie de la relativité qui unifie l'espace et le temps en une seule entité. La perception du temps et des distances dépend de la vitesse de déplacement de l'observateur.</p>
+                </article>
+                <article class="glossaire__article">
+                    <p id = "L'effet Matilda" class="glossaire__term">L'effet Matilda</p>
+                    <p class="glossaire__definition">Non-reconnaissance de femmes scientifique au profit d’hommes. </p>
+                </article>
+                <article class="glossaire__article">
+                    <p id = "Photoélectrique" class="glossaire__term">Photoélectrique</p>
+                    <p class="glossaire__definition">Phénomène physique désignant l'émission d'électrons par une substance exposée à la lumière. Cette découverte a contribué à l'obtention du prix Nobel d'Albert Einstein en 1921.</p>
+                </article>
+                <article class="glossaire__article">
+                    <p id = "Prix Nobel" class="glossaire__term">Prix Nobel</p>
+                    <p class="glossaire__definition">Récompense attriubué à une ou des personnes pour leur travail en faveur de l’humanité, à travers des découvertes qui peuvent être scientifiques, innovatrices, des œuvres littéraires ou encore des actions pour la paix… </p>
+                </article>
+                <article class="glossaire__article">
+                    <p id = "Vitesse de la lumière" class="glossaire__term">Vitesse de la lumière</p>
+                    <p class="glossaire__definition">Constante physique fondamentale dans la théorie de la relativité, notée c. Elle est toujours la même n'importe où et n'importe quand, et représente une limite infranchissable pour le voyage de la matière.</p>
+                </article>
+            </div>
+        </section>
