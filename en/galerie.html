@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+US+Modern:wght@100..400&family=Preahvihear&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="src/css/style.css">
-    <script src="src/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+    <script src="/src/js/script.js"></script>
 </head>
 <body>
     <header class = "header">
@@ -34,7 +34,7 @@
 
         <nav class="header__menu menu" id="mainNav" hidden>
             <a class = "header__link"  href = "/en/index.html"> 
-            <button class = "logo" aria-label = "retour à la page d'acceuil">
+            <button class = "header__logo" aria-label = "retour à la page d'acceuil">
             <img src ="/assets/icon/logo.svg" alt = "logo">
             </button>
             </a>
@@ -79,7 +79,6 @@
                 </a>
             </button>
         </nav>
-        <hr>
     </header>
 
     <main>
@@ -134,7 +133,6 @@
         </section>
 
         <footer class="footer">
-            <hr>
             <div class="footer__content ">
                 <nav class = "footer__link link">
                     <a href="/en/contact.html" class="link__text">Contact</a>
@@ -151,15 +149,17 @@
                         This project was carried out in 2025 as part of an educational exercise in the MMI department of Montbéliard.
                     </p>
                 </div>
-                <div class="footer__contact contact">
-                    <p class="contact__name">Bambou Franceschini Group C2</p>
-                    <a href="mailto:bambou.franceschini@edu.univ-fcomte.fr" class="contact__email"> bambou.franceschini@edu.univ-fcomte.fr</a>
+                <div class="footer__bottom">
+                    <div class="footer__contact contact">
+                        <p class="contact__name">Bambou Franceschini Group C2</p>
+                        <a href="mailto:bambou.franceschini@edu.univ-fcomte.fr" class="contact__email"> bambou.franceschini@edu.univ-fcomte.fr</a>
+                    </div>
+                    <a class = "footer__logo"  href = "/en/index.html"> 
+                        <button class = "footer__btn" aria-label = "retour à la page d'acceuil">
+                            <img src ="/assets/icon/logo2.svg" alt = "logo petit">
+                        </button>
+                    </a>
                 </div>
-                <a class = "header__link"  href = "/en/index.html"> 
-                    <button class = "header__logo" aria-label = "retour à la page d'acceuil">
-                        <img src ="/assets/icon/logo.svg" alt = "logo">
-                    </button>
-                </a>
             </div>   
         </footer>
     </main>

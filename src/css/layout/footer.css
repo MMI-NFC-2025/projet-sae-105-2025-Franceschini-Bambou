@@ -1,0 +1,125 @@
+/* Footer styling */
+.footer {
+    background-color: var(--violet-foncé);
+    display : flex;
+    font-family: var(--infos);
+    color: var(--blanc); 
+    display : flex;
+}
+
+
+.footer__content {
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer__link {
+    padding : 0 2.25rem;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 2.13rem;
+}
+
+.link__text {
+    text-decoration: none;
+    color: var(--blanc);
+}
+
+.footer__legal-legal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 17.625rem;
+    height: 2.875rem;
+    aspect-ratio: 141/23;
+    text-align: left;
+}
+
+.legal__link{
+    text-decoration: none;
+    color: var(--blanc);
+}
+
+.legal__title {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding : 0 4.12rem;
+    margin-bottom:0;
+    margin-top: 1.97rem;
+}
+
+.legal__text {
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left :4.12rem;
+    padding-right: 2.81rem;
+    margin:0 0;
+}
+
+.footer__contact-contact{
+    width: 17.5625rem;
+    height: 2.875rem;
+    aspect-ratio: 281/46;
+    padding: 0 var(--marge);
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--marge);
+}
+
+.contact__name{
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.78rem;
+    margin-bottom: 0;
+}
+
+.contact__email {
+    text-decoration: none;
+    color: var(--blanc);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    display: block;
+} 
+
+.footer__logo {
+    padding-right: var(--marge);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer__btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
+
+.footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1.44rem;
+}
+

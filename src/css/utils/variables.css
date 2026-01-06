@@ -6,19 +6,19 @@
   --fushia: #ff00ac;
   --rose-pale: #ffddf4;
   --violet: #985983;
+  --violet-foncé: #792c60;
 }
 /* typographies */
 :root {
   /* Mode 1 */
   /* string */
-  --body: Nunito;
-  --infos: Inter;
-  --intro: Preahvihear;
-  --titre: SeoulNamsan CB;
+  --body: 'Nunito', sans-serif;
+  --infos: 'Inter', sans-serif;
+  --intro: 'Preahvihear', cursive;
 }
 /* spaces */
 :root {
   /* Mode 1 */
   /* number */
-  --marge: 0.0744rem;
+  --marge: 1.1875rem;
 }

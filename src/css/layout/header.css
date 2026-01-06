@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--violet-foncé);
+    padding : 0 var(--marge);
+}
+
+.header__link{
+    width: 18.3125rem;
+    height: 3.1875rem;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    background-color: transparent;
+    border: none;
+    width: 18.3125rem;
+    height: 3.1875rem;
+}
+
+
+
