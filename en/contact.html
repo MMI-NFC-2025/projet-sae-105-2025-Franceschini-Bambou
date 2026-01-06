@@ -94,24 +94,26 @@
         </section>
 
          <form class="contactform">
-                    <div class="contact__lastname-wrapper">
-                        <label for="lastname" class="contactlabel">Last Name</label>
-                        <input type="text" id="lastname" class="contactinput" placeholder="">
+                    <div class="contactform__row">
+                        <div class="contactform__group">
+                            <label for="lastname" class="contactform__label">Last Name</label>
+                            <input type="text" id="lastname" class="contactform__input" placeholder="">
+                        </div>
+                        <div class="contactform__group">
+                            <label for="firstname" class="contactform__label">First Name</label>
+                            <input type="text" id="firstname" class="contactform__input" placeholder="">
+                        </div>
                     </div>
-                    <div class="contact__firstname-wrapper">
-                        <label for="firstname" class="contactlabel">First Name</label>
-                        <input type="text" id="firstname" class="contactinput" placeholder="">
+                    <div class="contactform__group">
+                        <label for="object" class="contactform__label">Subject</label>
+                        <input type="text" id="object" class="contactform__input" placeholder="">
                     </div>
-                    <div class="contact__object-wrapper">
-                        <label for="object" class="contactlabel">Subject</label>
-                        <input type="text" id="object" class="contactinput" placeholder="">
+                    <div class="contactform__group">
+                        <label for="texte" class="contactform__label">Text</label>
+                        <textarea id="texte" class="contactform__textarea" placeholder=""></textarea>
                     </div>
-                    <div class="contact__texte-wrapper">
-                        <label for="texte" class="contactlabel">Text</label>
-                        <input type="text" id="texte" class="contactinput" placeholder="">
-                    
+                    <button class="contactform__submit" type="submit">Send</button>
             </form>
-            <button class="contactsubmit-btn" type="submit">Send</button>
 
             <section class="contact-info">
                 <div class="contact-info__item">

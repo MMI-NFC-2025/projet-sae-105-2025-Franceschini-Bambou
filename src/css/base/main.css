@@ -359,3 +359,76 @@ figcaption {
   transform: scale(1.1);
 }
 
+.contactform {
+    padding: 2rem var(--marge);
+    margin: 0 var(--marge);
+    background-color: var(--fushia);
+    border: 2px solid var(--blanc);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contactform__row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contactform__row .contactform__group {
+    flex: 1;
+    min-width: 150px;
+}
+
+.contactform__group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contactform__label {
+    color: var(--blanc);
+    font-family: var(--body);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.contactform__input,
+.contactform__textarea {
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--blanc);
+    color: var(--violet);
+    font-family: var(--body);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contactform__textarea {
+    min-height: 150px;
+    resize: vertical;
+    font-family: var(--body);
+}
+
+.contactform__submit {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background-color: var(--blanc);
+    color: var(--fushia);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--infos);
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contactform__submit:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
