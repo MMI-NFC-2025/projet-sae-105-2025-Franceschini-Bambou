@@ -86,7 +86,7 @@ body {
     margin: 0;
 }
 
-.article__link {
+.article__lien {
     text-decoration: none;
 }
 
@@ -184,14 +184,6 @@ h1{
     line-height: 33px;
 }
 
-.img__caption{
-    color: var(--blanc);
-    font-family: var(--infos);
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
 .hero__info{
     padding : 33px 0;
@@ -204,11 +196,23 @@ h1{
     line-height: normal;
 }
 
+.img__caption{
+    color: var(--blanc);
+    font-family: var(--infos);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    justify-content: flex-start;
+}
+
 .paragraphe {
     margin : 0;
     padding : 0;
 }
 .paragraphe__contenu h2{
+    margin : 0 var(--marge);
     color: var(--blanc);
     font-family: Nunito;
     font-size: 1.125rem;
@@ -218,10 +222,11 @@ h1{
     text-align : flex-start;
     background-color: var(--fushia);
     padding: 0px 12px;
-    margin : 0 7px;
+    margin : 0 var(--marge);
     border-radius: 10px;
     display: inline-block;
     margin-bottom: 0;
+    margin-top: 33px;
 }
 
 .paragraphe__contenu p{
@@ -233,11 +238,10 @@ h1{
     font-style: normal;
     line-height: 23.2px;
     margin : 0;
+    padding-bottom : 26px;
 }
 
-
-
-
-
-
-
+.article__link {
+    text-decoration: none;
+    padding :0 var(--marge);
+}

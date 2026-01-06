@@ -21,3 +21,16 @@
     height: auto;
     object-fit: cover;
 }
+
+
+.paragraphe__img{
+    padding :  0 var(--blanc);
+    padding-top : 26px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
