@@ -34,15 +34,16 @@
         </button>
 
         <nav class="header__menu menu" id="mainNav" hidden>
-            <a class = "header__link"  href = "/en/index.html"> 
-            <button class = "header__logo" aria-label = "retour à la page d'acceuil">
-            <img src ="/assets/icon/logo.svg" alt = "logo">
-            </button>
-            </a>
-            <h1>Mileva Einstein</h1>
-            <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
-                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
-            </button>
+            <div class ="menu__header">
+                <a class = "menu__link"  href = "/en/index.html"> 
+                    <button class = "menu__logo" aria-label = "back to home page">
+                        <img src ="/assets/icon/logo.svg" alt = "logo">
+                    </button>
+                </a>
+                <button class ="menu__close-btn close-btn" aria-label="close menu">
+                    <img class="close-btn__icon" src="/assets/icon/x.svg" alt="close menu button" />
+                </button>
+            </div>
             <ul class="menu__list">
                 <li class="menu__item">
                     <a class="menu__link" href="/en/article1.html">Who is Mileva Einstein ?</a>
@@ -57,13 +58,13 @@
                     <a class="menu__link" href="/en/article4.html">A film about her life</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/en/article5.html">Des femmes d'exception</a>
+                    <a class="menu__link" href="/en/article5.html">Exceptional Women</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="/en/contact.html">Contact</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/en/glossaire.html">>Glossary</a>
+                    <a class="menu__link" href="/en/glossaire.html">Glossary</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="/en/apropos.html">About me</a>
@@ -75,6 +76,11 @@
                     <a class="menu__link" href="/en/galerie.html">Films Gallery</a>
                 </li>
             </ul>
+            <button class ="langue__btn" aria-label="change language">
+                <a class = "langue__link" href="/fr/article1.html">
+                    <p>FR</p>
+                </a>
+            </button>
         </nav>
     </header>
 

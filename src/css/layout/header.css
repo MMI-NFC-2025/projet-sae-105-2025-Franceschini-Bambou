@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--violet-foncé);
     padding : 0 var(--marge);
+    padding-top:1.88rem;
+    background-color: var(--violet-foncé);
 }
 
 .header__link{

@@ -8,14 +8,16 @@
   --violet: #985983;
   --violet-foncé: #792c60;
 }
+
 /* typographies */
 :root {
   /* Mode 1 */
   /* string */
   --body: 'Nunito', sans-serif;
   --infos: 'Inter', sans-serif;
-  --intro: 'Preahvihear', cursive;
+  --intro: 'Preahvihear';
 }
+
 /* spaces */
 :root {
   /* Mode 1 */

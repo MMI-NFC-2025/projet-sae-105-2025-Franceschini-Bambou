@@ -1,22 +1,26 @@
-body.menu-open {
+.header__menu {
     overflow: hidden;
     background-color: var(--violet);
-}
-
-.header__menu {
-    position: fixed ;
-    top: 0;
-    left: 0;
-    ;
+    position: fixed;
+    inset: 0; 
+    color: var(--blanc);
+    font-family: var(--intro);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .menu__list {
     list-style: none;
-    padding: 0;
-    margin: 2rem 0;
+    flex-direction: column;
+    align-items: left;
+    padding: var(--marge);
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.38rem;
+    flex: 1;
+    justify-content: center;    
 }
 
 .menu__link {
@@ -25,6 +29,35 @@ body.menu-open {
     color: inherit;
 }
 
-.menu__link:hover {
-    text-decoration: underline;
+.menu__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--violet-foncé);
+    padding-top: 1.88rem;
+}
+
+.menu__logo{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--marge);
+}
+
+.langue__btn {
+    align-self: flex-end;
+    margin : 0 var(--marge);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.langue__link {
+    text-decoration: none;
+    color: var(--blanc);
 }

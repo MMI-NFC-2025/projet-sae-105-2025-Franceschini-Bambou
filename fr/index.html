@@ -33,14 +33,16 @@
         </button>
 
         <nav class="header__menu menu" id="mainNav" hidden>
-            <a class = "header__link"  href = "/fr/index.html"> 
-                <button class = "header__logo" aria-label = "retour à la page d'acceuil">
-                    <img src ="/assets/icon/logo.svg" alt = "logo">
+            <div class ="menu__header">
+                <a class = "menu__link"  href = "/fr/index.html"> 
+                    <button class = "menu__logo" aria-label = "retour à la page d'acceuil">
+                        <img src ="/assets/icon/logo.svg" alt = "logo">
+                    </button>
+                </a>
+                <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
+                    <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
                 </button>
-            </a>
-            <button class ="menu__close-btn close-btn" aria-label="fermer le menu">
-                <img class="close-btn__icon" src="/assets/icon/x.svg" alt="bouton de fermeture du menu" />
-            </button>
+            </div>
             <ul class="menu__list">
                 <li class="menu__item">
                     <a class="menu__link" href="/fr/article1.html">Qui est Mileva Einstein ?</a>
@@ -61,7 +63,7 @@
                     <a class="menu__link" href="/fr/contact.html">Contact</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="/fr/glossaire.html">>Glossaire</a>
+                    <a class="menu__link" href="/fr/glossaire.html">Glossaire</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="/fr/apropos.html">A propos</a>
@@ -73,8 +75,8 @@
                     <a class="menu__link" href="/fr/galerie.html">Galerie de Films</a>
                 </li>
             </ul>
-            <button class ="langue__btn langue-btn" aria-label="changer de langue">
-                <a href="/en/index.html">
+            <button class ="langue__btn" aria-label="changer de langue">
+                <a class = "langue__link"href="/en/index.html">
                     <p>ENG</p>
                 </a>
             </button>
