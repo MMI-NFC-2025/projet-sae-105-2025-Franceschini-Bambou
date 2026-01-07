@@ -42,4 +42,55 @@ document.addEventListener('DOMContentLoaded', () => {
     menuLinks.forEach(link => {
         link.addEventListener('click', closeMenu);
     });
+
+    // ========== CAROUSEL ==========
+    const carousels = document.querySelectorAll('.carousel');
+    
+    carousels.forEach(carousel => {
+        const slides = carousel.querySelectorAll('.carousel__matilda');
+        const controls = carousel.querySelector('.carousel__controls');
+        
+        if (!controls || slides.length === 0) return;
+        
+        const buttons = controls.querySelectorAll('button');
+        const prevBtn = buttons[0];
+        const nextBtn = buttons[1];
+        
+        let currentIndex = 0;
+        const totalSlides = slides.length;
+        
+        // Initialiser le carousel
+        carousel.style.display = 'flex';
+        carousel.style.transition = 'transform 0.3s ease';
+        
+        slides.forEach((slide, index) => {
+            slide.style.minWidth = '100%';
+            slide.style.flexShrink = 0;
+            // Masquer tous les slides au départ sauf le premier
+            slide.style.display = index === 0 ? 'flex' : 'none';
+        });
+        
+        // Fonction pour afficher le slide actif
+        function showSlide() {
+            slides.forEach((slide, index) => {
+                slide.style.display = index === currentIndex ? 'flex' : 'none';
+            });
+        }
+        
+        // Fonction pour aller au slide suivant
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            showSlide();
+        }
+        
+        // Fonction pour aller au slide précédent
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            showSlide();
+        }
+        
+        // Événements des boutons
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+    });
 });
