@@ -271,6 +271,17 @@ figcaption {
     line-height: normal;
 }
 
+.contact__intro {
+    color: var(--blanc);
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 23.2px;
+    margin : 0;
+    padding-bottom : 26px;
+}
+
 .contactform {
     padding: 2rem var(--marge);
     margin: 0 var(--marge);
@@ -342,5 +353,31 @@ figcaption {
 .contactform__submit:hover {
     background-color: #f0f0f0;
     transform: scale(1.05);
+}
+
+.contact-info {
+    padding: 2rem var(--marge);
+    margin: 0 var(--marge);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info__item {
+    color: var(--blanc);
+    font-family: var(--body);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact-info__item p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info__item a {
+    color: var(--blanc);
+    text-decoration: underline;
 }
 
