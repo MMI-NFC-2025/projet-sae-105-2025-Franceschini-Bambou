@@ -38,7 +38,7 @@
 .video__player {
     width: 100%;
     max-width: 800px;
-    height: 450px;
+    height: 199px;
     border: none;
     display : flex;
     justify-content: center;
