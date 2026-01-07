@@ -8,20 +8,26 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
-main {
-    flex: 1;
-}
 
 .hero { 
-    padding-top: 0.81rem;
-    padding : 0 var(--marge);
+    padding: 0.81rem var(--marge) 0 var(--marge);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0;
+}
+
+.hero__image {
+    width: 100%;
+     height: auto;
+    border-top :none;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 0;
+    padding : 0 ;
 }
 
 .introduction {
@@ -69,6 +75,8 @@ main {
     align-items: center;
 }
 .article__contenu {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -78,22 +86,23 @@ main {
 
 .article__description {
     padding-top : 65px;
-    width: 206px;
-    height: 93px;
+    width: 100%;
+    height: auto;
     display : flex; 
     padding: 0;
     border-radius: 6px;
     background: var(--fushia);
 }
 .article__description {
-    width: 199px;
-    height: 89px;
+    width: 100%;
+    height: auto;
     color: var(--blanc);
     font-family: var(--body);
     font-size: 17px;
     font-weight: 400;
     line-height: 23.2px;
     margin: 0;
+    padding : 5px;
 }
 
 .article__lien {
@@ -114,16 +123,16 @@ main {
 
 .article2__description {
     padding-top : 65px;
-    width: 206px;
-    height: 93px;
+    width: 100%;
+    height: auto;
     display : flex; 
     padding: 0;
     border-radius: 6px;
     background: var(--fushia);
 }
 .article2__description {
-    width: 199px;
-    height: 89px;
+    width: 100%;
+    height: auto;
     color: var(--blanc);
     font-family: var(--body);
     font-size: 17px;
@@ -143,6 +152,8 @@ main {
 }
 
 .article3__contenu {
+    width : 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -158,8 +169,8 @@ main {
 
 h1{
     display: flex;
-    width: 354px;
-    height: 75px;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     color: var(--blanc);
@@ -171,17 +182,21 @@ h1{
 }
 
 .hero__title{
+    width: 100%;
+    height: auto;
+    color: var(--blanc);
+    text-align: center;
     background-color: var(--fushia);
     border-radius: 10px;
-    width: 355px;
-    height: 57px;
+    width : 100%;
+    height: auto;
     font-size: 1.9375rem;
 }
 
 .hero__intro{
     display: flex;
-    width: 329px;
-    height: 103px;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     padding: 0 var(--marge);
@@ -196,31 +211,27 @@ h1{
 
 
 .hero__info{
+    width: 100%;
+    width: auto;
     padding : 33px 0;
     color: var(--blanc);
     text-align: left;
     font-family: var(--infos);
     font-size: 0.75rem;
-    font-style: b;
     font-weight: 800;
     line-height: normal;
 }
 
-.img__caption{
-    color: var(--blanc);
-    font-family: var(--infos);
-    font-size: 0.625rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
-figcaption {
+.img_caption figcaption {
     align-self: flex-start;
-    padding : 0 var(--marge);
+    width: 100%;
+    height: auto;
 }
 
 .paragraphe {
+    width: 100%;
+    height: auto;
     margin : 0;
     padding : 0;
 }
@@ -261,6 +272,8 @@ figcaption {
 }
 
 .lien {
+    width: 100%;
+    height: auto;
     padding: 0 var(--marge);
     text-decoration: underline;
     color : var(--blanc);
@@ -271,7 +284,8 @@ figcaption {
     line-height: normal;
 }
 .lien2 {
-    padding: 0 var(--marge);
+    width: 100%;    
+    height: auto;
     text-decoration: underline;
     color : var(--blanc);
     font-family: var(--body);
@@ -282,6 +296,8 @@ figcaption {
 }
 
 .contact__intro {
+    width: 100%;
+    height: auto;
     color: var(--blanc);
     text-align: justify;
     font-family: Nunito;
@@ -392,6 +408,8 @@ figcaption {
 }
 
 .autresprojets{
+    width: 100%;
+    height: auto;
     padding : 0 var(--marge);
     margin : 0;
     display: flex;
@@ -418,6 +436,8 @@ figcaption {
 }
 
 .glossaire{
+    width: 100%;
+    height: auto;
     padding : 0 var(--marge);
     margin : 0;
     display: flex;
@@ -443,6 +463,8 @@ figcaption {
 }
 
 .mentionslegales{
+    width: 100%;
+    height: auto;
     padding: 0 var(--marge);
     margin : 0;
     display: flex;
@@ -457,6 +479,8 @@ figcaption {
 }
 
 .apropos{
+    width: 100%;
+    height: auto;
     padding : 0 var(--marge);
     margin : 0;
     display: flex;
@@ -470,6 +494,8 @@ figcaption {
 }
 
 .galerie {
+    width: 100%;
+    height: auto;
     padding: 0 var(--marge);
     margin: 0;
     display: flex;
@@ -477,7 +503,6 @@ figcaption {
     align-items: center;
     color: var(--fushia);
     font-family: var(--body);
-    padding-bottom: 71px;
 }
 
 .galerie__contenu {
@@ -501,3 +526,4 @@ figcaption {
     margin-top: 10px;
     font-size: 14px;
 }
+
