@@ -61,13 +61,6 @@
     align-items: center;
 }
 
-.carousel__img {
-    width: 75%;
-    height: auto;;
-    object-fit: cover;
-    margin : 21px 0 50px 21px;
-    flex-shrink: 0;
-}
 
 .galerie__image {
     width: 100%;
