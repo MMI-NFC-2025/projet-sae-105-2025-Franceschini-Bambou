@@ -5,6 +5,16 @@ body {
     padding : 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 .hero { 
     padding-top: 0.81rem;
     padding : 0 var(--marge);
