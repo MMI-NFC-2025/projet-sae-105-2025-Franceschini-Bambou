@@ -51,10 +51,11 @@
 
 .langue__btn {
     align-self: flex-start;
-    margin : 0 var(--marge);
     background: none;
     border: none;
     cursor: pointer;
+    margin : 0;
+    padding : 0 var(--marge);
 }
 
 .langue__link {
