@@ -8,6 +8,11 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 
@@ -199,7 +204,6 @@ h1{
     height: auto;
     flex-direction: column;
     justify-content: center;
-    padding: 0 var(--marge);
     color: var(--blanc);
     text-align: center;
     font-family: var(--intro);
@@ -224,9 +228,12 @@ h1{
 
 
 .img_caption figcaption {
-    align-self: flex-start;
-    width: 100%;
-    height: auto;
+    color: var(--blanc);
+    font-family: var(--infos);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .paragraphe {
@@ -420,7 +427,7 @@ h1{
 }
 
 .autresprojets__eleve{
-    margin : 25px 0;
+    margin-top : 25px ;
 }
 
 .autresprojets__eleve p{
@@ -436,8 +443,6 @@ h1{
 }
 
 .glossaire{
-    width: 100%;
-    height: auto;
     padding : 0 var(--marge);
     margin : 0;
     display: flex;
@@ -479,8 +484,6 @@ h1{
 }
 
 .apropos{
-    width: 100%;
-    height: auto;
     padding : 0 var(--marge);
     margin : 0;
     display: flex;
@@ -490,12 +493,10 @@ h1{
     font-family: var(--body);
 }
 .apropos__contenu{
-    margin : 30px 0;
+    margin : 0;
 }
 
 .galerie {
-    width: 100%;
-    height: auto;
     padding: 0 var(--marge);
     margin: 0;
     display: flex;
@@ -503,6 +504,7 @@ h1{
     align-items: center;
     color: var(--fushia);
     font-family: var(--body);
+    padding-bottom : 71px;
 }
 
 .galerie__contenu {

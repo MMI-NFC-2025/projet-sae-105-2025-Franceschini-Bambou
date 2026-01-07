@@ -19,26 +19,33 @@
 }
 
 .hero__img {
-    padding : 0 var(--marge);
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
 }
 
+.hero__img img {
+    padding: 0 var(--marge);
+    width: 90%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 
 .paragraphe__img{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-top : 26px;
     display : flex;
     justify-content : flex-start;
-    align-items : center;
+    align-items : flex-start;
     flex-direction: column;
     object-fit: cover;
 }
 
 .paragraphe__img img {
-    width: 100%;
+    padding: 0 var(--marge);
+    width: 90%;
     height: auto;
     display: block;
     object-fit: cover;
@@ -55,7 +62,7 @@
 }
 
 .carousel__img {
-    width: 100%;
+    width: 75%;
     height: auto;;
     object-fit: cover;
     margin : 21px 0 50px 21px;
