@@ -52,3 +52,9 @@
     margin : 21px 0 50px 21px;
     flex-shrink: 0;
 }
+
+.galerie__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
