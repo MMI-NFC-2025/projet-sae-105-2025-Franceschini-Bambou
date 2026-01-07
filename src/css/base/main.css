@@ -391,3 +391,28 @@ figcaption {
     text-decoration: underline;
 }
 
+.autresprojets{
+    padding : 0 var(--marge);
+    margin : 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--blanc) ;
+    font-family: var(--body);
+}
+
+.autresprojets__eleve{
+    margin : 20px 0;
+}
+
+.autresprojets__eleve p{
+    margin : 0;
+    padding : 0;
+}
+
+.autresprojets__eleve a{
+    text-decoration: underline;
+    color : var(--blanc);
+    margin : 0;
+    padding : 0;
+}
