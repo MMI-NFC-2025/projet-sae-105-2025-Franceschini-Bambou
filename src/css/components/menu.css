@@ -50,7 +50,7 @@
 }
 
 .langue__btn {
-    align-self: flex-end;
+    align-self: flex-start;
     margin : 0 var(--marge);
     background: none;
     border: none;
